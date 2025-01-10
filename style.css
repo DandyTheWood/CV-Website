@@ -1,3 +1,7 @@
+/*
+    Základná úprava
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +30,54 @@ nav {
 ul {
     list-style: none;
 }
-  
+
+/*
+    Hlavný blok v ktorom sú vložené ostatné bloky
+*/
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 10%;
+    margin-top: 100px;
+}
+
+ /*
+    Blok s úvodným textom
+ */
+
+.wellcome{
+    padding: 5%;
+    border-radius: 2%;
+    text-align: center;
+    width: 45%;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+/*
+    Nastavenie blokov
+*/
+
+.d1, .d2, .d3, .d4 {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5%;
+    border-radius: 2%;
+    box-shadow: 0px 0px 5% rgba(0, 255, 200, 0.6);
+    text-align: center;
+    width: 45%;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+/*
+    Túto časť z css mám z "uiverse.io"
+    Poteboval som pekne vyzerajúce tlačidlá na sociálne siete
+*/
+
 .example-2 {
     display: flex;
     justify-content: center;
@@ -139,6 +190,11 @@ ul {
     width: 100%;
 }
 
+/*
+    Toto je tlačidlo ktoré som spravl na vrátenie do index.html
+    Animácie som si naštudoval z W3Schools.
+*/
+
 .dmolda_button {
     font-size: 2rem;
     font-weight: bold;
@@ -160,6 +216,10 @@ ul {
     color: #000;
     transform: scale(1.1);
 }
+
+/*
+    Toto dropdown menu som si pozeral taktiež na W3Schools
+*/
 
 .dropdown {
     position: relative;
@@ -217,35 +277,9 @@ ul {
     display: block;
 }
 
-.main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
-    padding: 10%;
-    margin-top: 100px;
-}
-
-.wellcome{
-    padding: 5%;
-    border-radius: 2%;
-    text-align: center;
-    width: 45%;
-    font-size: 1.5rem;
-    line-height: 1.8;
-}
-
-.d1, .d2, .d3, .d4 {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 5%;
-    border-radius: 2%;
-    box-shadow: 0px 0px 5% rgba(0, 255, 200, 0.6);
-    text-align: center;
-    width: 45%;
-    font-size: 1.5rem;
-    line-height: 1.8;
-}
+/*
+    Galéria
+*/
 
 .gallery-item {
     background: rgba(0, 0, 0, 0.7);
@@ -277,4 +311,12 @@ ul {
     transform: scale(1.1);
     border-radius: 6%;
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 1.5% 5%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
 }
