@@ -253,6 +253,8 @@ ul {
     z-index: 1;
     border-radius: 5px;
     width: 100%;
+    padding-top: 2%;
+    padding-right: 2%;
 }
 
 .dropdown-content a {
@@ -319,4 +321,46 @@ footer {
     padding: 1.5% 5%;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 10;
+}
+
+/*
+    Responzivita stránky
+*/
+
+@media (max-width: 1024px) {
+    .gallery-item {
+        flex: 1 1 calc(33.33% - 20px); /* Three items per row */
+    }
+
+    .wellcome, .d1, .d2, .d3, .d4 {
+        flex: 1 1 calc(50% - 10px); /* Two items per row */
+    }
+
+    .main {
+        padding: 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-item {
+        flex: 1 1 calc(50% - 10px); /* Two items per row */
+    }
+
+    .wellcome, .d1, .d2, .d3, .d4 {
+        flex: 1 1 100%; /* Full width */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    nav {
+        padding: 1% 3%;
+    }
+
+    .gallery-item {
+        flex: 1 1 100%; /* One item per row */
+    }
 }
