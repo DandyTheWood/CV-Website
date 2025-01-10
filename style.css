@@ -152,13 +152,6 @@ ul {
 .example-2 .icon-content a:hover .filled {
     height: 100%;
 }
-  
-
-.example-2 .icon-content a[data-social="linkedin"] .filled,
-  .example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
-    background-color: #0274b3;
-}
-  
 
 .example-2 .icon-content a[data-social="github"] .filled,
 .example-2 .icon-content a[data-social="github"] ~ .tooltip {
@@ -303,10 +296,12 @@ ul {
 
 .gallery-item h1 {
     font-size: 2rem;
-    margin-bottom: 1.5rem;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
-    letter-spacing: 2px;
-    
+    color: #ffffff;
+    margin-bottom: 1rem;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding: 5px 10px;
+    border-radius: 8px;
 }
 
 .gallery-item img:hover {
