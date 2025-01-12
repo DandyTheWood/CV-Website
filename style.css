@@ -246,8 +246,7 @@ ul {
     z-index: 1;
     border-radius: 5px;
     width: 100%;
-    padding-top: 2%;
-    padding-right: 2%;
+    right: 0;
 }
 
 .dropdown-content a {
@@ -255,7 +254,7 @@ ul {
     padding: 10px;
     text-decoration: none;
     display: block;
-    text-align: center;
+    text-align: left;
     border-bottom: 1px solid #00ffcc;
 }
 
@@ -272,7 +271,11 @@ ul {
     display: block;
 }
 
-/* Gallery Section - Updated for 4 images per row */
+/*
+    Galery
+*/
+
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -281,7 +284,7 @@ ul {
 }
 
 .gallery-item {
-    flex: 1 1 calc(25% - 20px); /* 4 images per row, minus gap */
+    flex: 1 1 calc(25% - 20px);
     background: rgba(0, 0, 0, 0.7);
     padding: 15px;
     border-radius: 8px;
@@ -308,22 +311,21 @@ ul {
     transform: scale(1.1);
 }
 
-/* Adjust layout for smaller screens */
 @media (max-width: 1024px) {
     .gallery-item {
-        flex: 1 1 calc(33.33% - 20px); /* 3 images per row */
+        flex: 1 1 calc(33.33% - 20px);
     }
 }
 
 @media (max-width: 768px) {
     .gallery-item {
-        flex: 1 1 calc(50% - 20px); /* 2 images per row */
+        flex: 1 1 calc(50% - 20px);
     }
 }
 
 @media (max-width: 480px) {
     .gallery-item {
-        flex: 1 1 100%; /* 1 image per row */
+        flex: 1 1 100%;
     }
 
     .gallery-item .center-image img {
@@ -341,10 +343,9 @@ footer {
 }
 
 /*
-    MEDIA QUERIES FOR RESPONSIVENESS
+    Responzivita stránky na základe veľkosti obrazovky
 */
 
-/* Tablets (768px and smaller) */
 @media (max-width: 768px) {
     .main {
         padding: 5%;
@@ -362,7 +363,6 @@ footer {
     }
 }
 
-/* Mobile Devices (480px and smaller) */
 @media (max-width: 480px) {
     body {
         font-size: 14px;
