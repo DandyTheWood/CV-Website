@@ -90,6 +90,36 @@ p {
     line-height: 1.8;
 }
 
+.form {
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 0px;
+    columns: 1;
+}
+.form h1 {
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+.form .send_button {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 5%;
+}
+
+input {
+    margin: 1%;
+    margin-bottom: 5%;
+}
+
 /*
     Túto časť z css mám z "uiverse.io"
     Poteboval som pekne vyzerajúce tlačidlá na sociálne siete
