@@ -35,6 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         $mail->send();
 
+        $mail->clearAddresses();
         $mail->setFrom('webserverrpj@gmail.com', 'Daniel Molda Website');
         $mail->addAddress($email);
 
