@@ -34,6 +34,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->Body    = "Name: $name\nEmail: $email\n\nMessage:\n$message";
 
         $mail->send();
+
+        $mail->setFrom('webserverrpj@gmail.com', 'Daniel Molda Website');
+        $mail->addAddress($email);
+
+        // Content
+        $mail->Subject = "Feedback";
+        $mail->Body    = "Thank you for your feedback $name\nFeel free to contact me again on danielmolda1@gmail.com";
+
+        $mail->send();
         $fbMessage = 'Thank you for your feedback, ' . htmlspecialchars($name) . '!';
     } catch (Exception $e) {
         $fbMessage = "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
