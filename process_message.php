@@ -42,3 +42,40 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     echo 'Invalid request.';
 }
 ?>
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Molda</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="menu-container">
+            <a href="index.html" class="dmolda_button">
+                <span class="actual-text">&nbsp;Daniel&nbsp;Molda&nbsp;</span>
+            </a>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="d3">
+            <h1>Thank you for your message ;)</h1><br>
+            <a href="index.html" class="dmolda_button">
+                <span class="actual-text">&nbsp;Back&nbsp;to&nbsp;start&nbsp;</span>
+            </a>
+        </div>
+    </div>
+<footer>
+    <p style="text-align: center;">
+        Daniel Molda 2024-2025<br>
+        email: danielmolda1@gmail.com
+    </p>
+</footer>
+</body>
+
+</html>
