@@ -34,12 +34,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->Body    = "Name: $name\nEmail: $email\n\nMessage:\n$message";
 
         $mail->send();
-        echo 'Thank you for your feedback, ' . htmlspecialchars($name) . '!';
+        $fbMessage = 'Thank you for your feedback, ' . htmlspecialchars($name) . '!';
     } catch (Exception $e) {
-        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        $fbMessage = "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
 } else {
-    echo 'Invalid request.';
+    $fbMessage = 'Invalid request.';
 }
 ?>
 
@@ -64,7 +64,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </nav>
     <div class="main">
         <div class="d3">
-            <h1>Thank you for your message ;)</h1><br>
+            <h1>
+                <?php
+                    echo $fbMessage;
+                ?>
+            </h1><br>
             <a href="index.html" class="dmolda_button">
                 <span class="actual-text">&nbsp;Back&nbsp;to&nbsp;start&nbsp;</span>
             </a>
