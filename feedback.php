@@ -19,7 +19,7 @@
     </nav>
     <div class="main">
         <div class="d3">
-            <h2>Give me feetback :)</h2><br>
+            <h2>Give me feedback on my website :)</h2><br>
             <form action="process_message.php" method="post">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" placeholder="Your Name" required><br>
