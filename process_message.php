@@ -2,9 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'path/to/PHPMailer/src/PHPMailer.php';
-require 'path/to/PHPMailer/src/Exception.php';
-require 'path/to/PHPMailer/src/SMTP.php';
+require __DIR__ . '/vendor/autoload.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name = htmlspecialchars(trim($_POST['name']));
@@ -23,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'webserverrpj@gmail.com';
-        $mail->Password = 'dmoldaRP2024';
+        $mail->Password = 'okbj ipud uaal eybb';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
