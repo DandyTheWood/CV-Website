@@ -28,7 +28,7 @@
                 <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br>
         
                 <label for="message">Message:</label><br>
-                <textarea id="message" name="message" placeholder="Your Message" rows="4" cols="40"></textarea><br><br>
+                <textarea id="message" name="message" placeholder="Your Message" rows="4"</textarea><br><br>
         
                 <button type="submit">Send</button>
             </form>
