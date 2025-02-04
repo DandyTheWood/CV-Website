@@ -231,7 +231,7 @@ input {
 }
 
 /*
-    Toto je tlačidlo ktoré som spravl na vrátenie do index.html
+    Toto je tlačidlo ktoré som spravl na vrátenie do index.html a na začiatok stánky
     Animácie som si naštudoval z W3Schools.
 */
 
@@ -319,10 +319,8 @@ input {
 }
 
 /*
-    Galery
+    Foto galéria
 */
-
-/* Gallery */
 .gallery {
     display: flex;
     flex-direction: column;
@@ -364,7 +362,9 @@ input {
     transform: scale(1.05);
 }
 
-/* Media Queries */
+/*
+    Nastavenie stĺpcov galérie
+*/
 @media (max-width: 1024px) {
     .gallery-item {
         flex: 1 1 calc(33.33% - 20px);
@@ -387,7 +387,9 @@ input {
     }
 }
 
-/* Footer */
+/* 
+    Päta stránky
+*/
 footer {
     text-align: center;
     width: 100%;
@@ -396,7 +398,9 @@ footer {
     z-index: 10;
 }
 
-/* Responsive Design */
+/*
+    Responzívny dizajn 
+*/
 @media (max-width: 768px) {
     .main {
         padding: 5%;
