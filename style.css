@@ -371,7 +371,8 @@ input {
     background: linear-gradient(#212121, #212121) padding-box,
                 linear-gradient(145deg, transparent 35%, #00ffcc, #40c9ff) border-box;
     border: 2px solid transparent;
-    padding: 32px 24px;
+    padding: 16px;
+    padding-left: 0px;
     font-size: 14px;
     font-family: inherit;
     color: white;
@@ -383,7 +384,7 @@ input {
     border-radius: 16px;
     background-size: 200% 100%;
     animation: gradient 5s ease infinite;
-  }
+}
   
 @keyframes gradient {
     0% {
@@ -406,6 +407,7 @@ input {
 .form-container .form {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 20px;
 }
 
@@ -418,6 +420,8 @@ input {
 
 .form-container .form-group input,
 .form-container .form-group textarea {
+    text-align: left;
+    margin-left: 0;
     width: 100%;
     text-align: left;
     padding: 12px 16px;
