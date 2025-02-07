@@ -18,19 +18,22 @@
         </div>
     </nav>
     <div class="main">
-        <div class="d3">
+        <div class="form-container">
             <h2>Give me feedback on my website :)</h2><br>
-            <form action="process_message.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Your Name" required><br>
-        
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br>
-        
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" placeholder="Your Message" rows="4" style="width: 17rem;"></textarea><br><br>
-        
-                <button type="submit">Send</button>
+            <form class="form" action="process_message.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="4" style="width: 17rem;"></textarea>
+                </div>
+                <button class="form-submit-btn" type="submit">Send</button>
             </form>
         </div>
     </div>
