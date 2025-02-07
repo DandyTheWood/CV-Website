@@ -420,8 +420,6 @@ input {
 
 .form-container .form-group input,
 .form-container .form-group textarea {
-    text-align: left;
-    margin-left: 0;
     width: 100%;
     text-align: left;
     padding: 12px 16px;
