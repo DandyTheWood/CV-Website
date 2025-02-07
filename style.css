@@ -376,12 +376,14 @@ input {
     font-family: inherit;
     color: white;
     display: flex;
+    justify-content: left;
+    flex-direction: column;
     gap: 20px;
     box-sizing: border-box;
     border-radius: 16px;
     background-size: 200% 100%;
     animation: gradient 5s ease infinite;
-}
+  }
   
 @keyframes gradient {
     0% {
