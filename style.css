@@ -377,6 +377,7 @@ input {
     font-family: inherit;
     color: white;
     display: flex;
+    justify-content: left;
     flex-direction: column;
     gap: 20px;
     box-sizing: border-box;
@@ -451,12 +452,12 @@ input {
 
 .form-container .form-group input:focus {
     outline: none;
-    border-color: #e81cff;
+    border-color: #00ffcc;
 }
 
 .form-container .form-group textarea:focus {
     outline: none;
-    border-color: #e81cff;
+    border-color: #00ffcc;
 }
 
 .form-container .form-submit-btn {
