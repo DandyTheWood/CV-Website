@@ -412,20 +412,32 @@ input {
 .form-container .form-group {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Aligns labels and inputs to the left */
+    align-items: flex-start; /* Aligns everything to the left */
     gap: 8px;
     width: 100%;
 }
 
 .form-container .form-group input,
 .form-container .form-group textarea {
-    width: 100%; /* Ensures full width inside the container */
+    width: 100%; /* Ensures all input fields take full width */
     text-align: left; /* Aligns text inside input fields to the left */
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #414141;
+    background-color: transparent;
+    color: #fff;
+    font-family: inherit;
+    resize: none;
+}
+
+.form-container .form-group input {
+    height: 48px; /* Matches the height with textarea styling */
 }
 
 .form-container .form-submit-btn {
     align-self: flex-start; /* Ensures button aligns to the left */
 }
+
 
 .form-container .form-group textarea {
     width: 100%;
