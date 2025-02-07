@@ -17,26 +17,24 @@
             </a>
         </div>
     </nav>
-    <div class="main">
-        <div class="form-container">
-            <h2>Give me feedback on my website :)</h2><br>
-            <form class="form" action="process_message.php" method="post">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Your Name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message:</label><br>
-                    <textarea id="message" name="message" placeholder="Your Message" rows="4" style="width: 17rem;"></textarea>
-                </div>
-                <button class="form-submit-btn" type="submit">Send</button>
-            </form>
+    <div class="form-container">
+    <h2>Give me feedback on my website :)</h2><br>
+    <form class="form" action="process_message.php" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
         </div>
-    </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" placeholder="Your Message" rows="4"></textarea>
+        </div>
+        <button class="form-submit-btn" type="submit">Send</button>
+    </form>
+</div>
 <footer>
     <p style="text-align: center;">
         Daniel Molda 2024-2025<br>
