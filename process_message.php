@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->setFrom('webserverrpj@gmail.com', 'Daniel Molda Website');
         $mail->addAddress('danielmolda1@gmail.com');
 
-        // Content
+        // Content pre mňa
         $mail->Subject = "New Message from $name";
         $mail->Body    = "Name: $name\nEmail: $email\n\nMessage:\n$message";
 
@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->setFrom('webserverrpj@gmail.com', 'Daniel Molda Website');
         $mail->addAddress($email);
 
-        // Content
+        // Content pre použivateľa
         $mail->Subject = "Feedback";
         $mail->Body    = "Thank you for your feedback $name\nFeel free to contact me again on danielmolda1@gmail.com";
 
