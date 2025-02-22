@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         // Recipients
         $mail->setFrom('webserverrpj@gmail.com', 'Daniel Molda Website');
-        $mail->addAddress('danielmolda1@gmail.com');
+        $mail->addAddress('webserverrpj@gmail.com');
 
         // Content pre mňa
         $mail->Subject = "New Message from $name";
