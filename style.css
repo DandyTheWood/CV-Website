@@ -90,6 +90,12 @@ p {
     line-height: 1.8;
 }
 
+.toshiba_image {
+    max-width: 100%;
+    height: auto;
+
+}
+
 .form {
     display: flex;
     float: right;
