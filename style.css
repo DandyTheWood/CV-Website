@@ -90,6 +90,12 @@ p {
     line-height: 1.8;
 }
 
+.toshiba_image {
+    max-width: 100%;
+    height: auto;
+
+}
+
 .form {
     display: flex;
     float: right;
@@ -125,18 +131,18 @@ input {
     Poteboval som pekne vyzerajúce tlačidlá na sociálne siete
 */
 
-.example-2 {
+.socials {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.example-2 .icon-content {
+.socials .icon-content {
     margin: 0 10px;
     position: relative;
 }
 
-.example-2 .icon-content .tooltip {
+.socials .icon-content .tooltip {
     position: absolute;
     top: -30px;
     left: 50%;
@@ -150,13 +156,13 @@ input {
     transition: all 0.3s ease;
 }
 
-.example-2 .icon-content:hover .tooltip {
+.socials .icon-content:hover .tooltip {
     opacity: 1;
     visibility: visible;
     top: -50px;
 }
 
-.example-2 .icon-content a {
+.socials .icon-content a {
     position: relative;
     overflow: hidden;
     display: flex;
@@ -170,22 +176,22 @@ input {
     transition: all 0.3s ease-in-out;
 }
 
-.example-2 .icon-content a:hover {
+.socials .icon-content a:hover {
     box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
 }
 
-.example-2 .icon-content a svg {
+.socials .icon-content a svg {
     position: relative;
     z-index: 1;
     width: 30px;
     height: 30px;
 }
 
-.example-2 .icon-content a:hover {
+.socials .icon-content a:hover {
     color: white;
 }
 
-.example-2 .icon-content a .filled {
+.socials .icon-content a .filled {
     position: absolute;
     top: auto;
     bottom: 0;
@@ -196,17 +202,17 @@ input {
     transition: all 0.3s ease-in-out;
 }
 
-.example-2 .icon-content a:hover .filled {
+.socials .icon-content a:hover .filled {
     height: 100%;
 }
 
-.example-2 .icon-content a[data-social="github"] .filled,
-.example-2 .icon-content a[data-social="github"] ~ .tooltip {
+.socials .icon-content a[data-social="github"] .filled,
+.socials .icon-content a[data-social="github"] ~ .tooltip {
     background-color: #24262a;
 }
 
-.example-2 .icon-content a[data-social="instagram"] .filled,
-.example-2 .icon-content a[data-social="instagram"] ~ .tooltip {
+.socials .icon-content a[data-social="instagram"] .filled,
+.socials .icon-content a[data-social="instagram"] ~ .tooltip {
     background: linear-gradient(
       45deg,
       #405de6,
@@ -218,8 +224,8 @@ input {
     );
 }
 
-.example-2 .icon-content a[data-social="youtube"] .filled,
-.example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
+.socials .icon-content a[data-social="youtube"] .filled,
+.socials .icon-content a[data-social="youtube"] ~ .tooltip {
     background-color: #ff0000;
 }
 
@@ -368,7 +374,7 @@ input {
 
 .form-container {
     width: 400px;
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) padding-box,
+    background: linear-gradient(rgb(55, 55, 55, 0.9),rgb(55, 55, 55, 0.9)) padding-box,
                 linear-gradient(145deg, transparent 35%, #00ffcc, #40c9ff) border-box;
     border: 2px solid transparent;
     padding: 16px;

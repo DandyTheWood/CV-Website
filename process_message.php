@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $mail = new PHPMailer(true);
 
     try {
-        // Server settings
+        // Nastavenie SMTP Serveru
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
@@ -25,21 +25,22 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
-        // Recipients
+        // Nastavenie Príjemcov emailov
         $mail->setFrom('webserverrpj@gmail.com', 'Daniel Molda Website');
         $mail->addAddress('webserverrpj@gmail.com');
 
-        // Content pre mňa
+        // Správa pre mňa
         $mail->Subject = "New Message from $name";
         $mail->Body    = "Name: $name\nEmail: $email\n\nMessage:\n$message";
 
         $mail->send();
 
-        $mail->clearAddresses();
+        // Nastavenie Príjemcov emailov
+        $mail->clearAddresses(); // Vymaze zapísané adresy príjemcov
         $mail->setFrom('webserverrpj@gmail.com', 'Daniel Molda Website');
         $mail->addAddress($email);
 
-        // Content pre použivateľa
+        // Správa pre použivateľa
         $mail->Subject = "Feedback";
         $mail->Body    = "Thank you for your feedback $name\nFeel free to contact me again on danielmolda1@gmail.com";
 
