@@ -24,6 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->Password = 'lvqg kztz lqhe pwov';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
+        $mail->CharSet = 'UTF-8';
 
         // Nastavenie Príjemcov emailov
         $mail->setFrom('webserverrpj@gmail.com', 'Daniel Molda Website');
