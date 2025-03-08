@@ -37,8 +37,12 @@ p {
     margin-bottom: 10px;
 }
 
+/*
+    Tu som nastavil scroll na smooth čo spravý aby animácia počas prechádzania stránky bola plinulá
+*/
+
 html {
-    scroll-behavior: smooth;  /* Tu som nastavil scroll na smooth čo spravý aby animácia počas prechádzania stránky bola plinulá*/
+    scroll-behavior: smooth;
 }
 
 /*
