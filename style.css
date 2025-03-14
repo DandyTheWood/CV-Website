@@ -73,7 +73,7 @@ html {
 }
 
 #welcome_animation{
-    animation: smooth_appear 1.5s;
+    animation: smooth_appear 3;
 }
 
 @keyframes smooth_appear {
