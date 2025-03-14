@@ -63,7 +63,7 @@ html {
     Blok s úvodným textom
 */
 
-.wellcome {
+.welcome {
     padding: 5%;
     border-radius: 2%;
     text-align: center;
@@ -72,6 +72,15 @@ html {
     line-height: 1.8;
 }
 
+#welcome_animation{
+    animation: smooth_appear 1.5s;
+}
+
+@keyframes smooth_appear {
+    from {color: rgba(255, 255, 255, 0);}
+    to {color: rgb(255, 255, 255);}
+}
+  
 /*
     Nastavenie blokov
 */
