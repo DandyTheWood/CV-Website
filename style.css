@@ -559,7 +559,7 @@ footer {
         margin-top: 80px;
     }
 
-    .wellcome, .d1, .d2, .d3, .d4 {
+    .welcome, .d1, .d2, .d3, .d4 {
         width: 90%;
         font-size: 1.3rem;
     }
@@ -580,7 +580,7 @@ footer {
         margin-top: 60px;
     }
 
-    .wellcome, .d1, .d2, .d3, .d4 {
+    .welcome, .d1, .d2, .d3, .d4 {
         width: 100%;
         font-size: 1.1rem;
     }
