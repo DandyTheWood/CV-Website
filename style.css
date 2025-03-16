@@ -72,13 +72,33 @@ html {
     line-height: 1.8;
 }
 
-#welcome_animation{
+#welcome_animation {
     animation: smooth_appear 3s;
 }
 
 @keyframes smooth_appear {
     from {color: rgba(255, 255, 255, 0);}
     to {color: rgb(255, 255, 255);}
+}
+
+/*
+    Animácia obrázku
+*/
+
+#image_animation {
+    animation: fly-in 1.5s ease-out forwards;
+}
+
+@keyframes fly-in {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1; 
+    }
 }
   
 /*
