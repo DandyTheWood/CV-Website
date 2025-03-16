@@ -73,7 +73,7 @@ html {
 }
 
 #welcome_animation {
-    animation: smooth_appear 3s;
+    animation: smooth_appear 2s ease-out;
 }
 
 @keyframes smooth_appear {
@@ -86,17 +86,17 @@ html {
 */
 
 #image_animation {
-    animation: fly-in 1.5s ease-out forwards;
+    animation: fly-in 2s ease-out forwards;
 }
 
 @keyframes fly-in {
     from {
-        transform: translateX(-100%);
+        transform: translateY(130%);
         opacity: 0;
     }
 
     to {
-        transform: translateX(0);
+        transform: translateY(0);
         opacity: 1; 
     }
 }
