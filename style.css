@@ -77,8 +77,8 @@ html {
 }
 
 @keyframes smooth_appear {
-    from {color: rgba(255, 255, 255, 0);}
-    to {color: rgb(255, 255, 255);}
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 /*
@@ -115,6 +115,7 @@ html {
     width: 45%;
     font-size: 1.5rem;
     line-height: 1.8;
+    animation: smooth_appear 2.3s ease-out;
 }
 
 .d3, .d4 {
@@ -126,6 +127,7 @@ html {
     width: 90%;
     font-size: 1.5rem;
     line-height: 1.8;
+    animation: smooth_appear 3s ease-out;
 }
 
 .toshiba_image {
@@ -413,7 +415,7 @@ input {
 
 .form-container {
     width: 400px;
-    background: linear-gradient(rgb(55, 55, 55, 0.9),rgb(55, 55, 55, 0.9)) padding-box,
+    background: linear-gradient(rgb(55, 55, 55),rgb(55, 55, 55)) padding-box,
                 linear-gradient(145deg, transparent 35%, #00ffcc, #40c9ff) border-box;
     border: 2px solid transparent;
     padding: 16px;
@@ -428,6 +430,7 @@ input {
     border-radius: 16px;
     background-size: 200% 100%;
     animation: gradient 5s ease infinite;
+    animation: fly-in 1.3s ease-out;
 }
   
 @keyframes gradient {
