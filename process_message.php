@@ -89,7 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <footer>
     <p style="text-align: center;">
         © Daniel Molda 2024-2025<br>
-        email: danielmolda1@gmail.com
+        email: <a href="feedback.php">danielmolda1@gmail.com</a>
     </p>
 </footer>
 </body>
