@@ -41,8 +41,7 @@ table {
     width: 70%;
     margin: 20px auto;
     border-collapse: collapse;
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     overflow: hidden;
 }
@@ -53,18 +52,15 @@ th, td {
 }
 
 th {
-    background-color: #00a2ff;
-    color: white;
+    border-color: #00ffcc;
+    opacity: 0.5;
+    color: #00ffcc;
     font-size: 18px;
-}
-
-tr:hover {
-    background-color: #f1f1f1;
 }
 
 td {
     font-size: 16px;
-    color: #333;
+    color: #ffffff;
 }
 
 .proficient {
