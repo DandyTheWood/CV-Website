@@ -39,7 +39,7 @@
     </div>
 <footer>
     <p style="text-align: center;">
-        Daniel Molda 2024-2025<br>
+        © Daniel Molda 2024-2025<br>
         email: danielmolda1@gmail.com
     </p>
 </footer>
