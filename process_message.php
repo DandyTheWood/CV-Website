@@ -76,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </nav>
     <div class="main">
         <div class="d3">
-            <h1>
+            <h1 id="image_animation">
                 <?php
                     echo $fbMessage;
                 ?>
