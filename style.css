@@ -37,6 +37,51 @@ p {
     margin-bottom: 10px;
 }
 
+table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #00a2ff;
+    color: white;
+    font-size: 18px;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+td {
+    font-size: 16px;
+    color: #333;
+}
+
+.proficient {
+    color: #008000;
+    font-weight: bold;
+}
+
+.moderate {
+    color: #e68a00;
+    font-weight: bold;
+}
+
+.novice {
+    color: #cc0000;
+    font-weight: bold;
+}
+
 /*
     Tu som nastavil scroll na smooth čo spravý aby animácia počas prechádzania stránky bola plinulá
 */
