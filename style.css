@@ -10,7 +10,7 @@
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.pond5.com/computer-coding-background-footage-090890180_prevstill.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bg-site.webp');
     background-size: cover;
     background-attachment: fixed;
     color: #ffffff;
