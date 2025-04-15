@@ -5,5 +5,5 @@ The project focused on the installation and configuration of a Linux server for 
 ## Goal of project
 The goal of the project was to set up a web server on Linux machine and create a simple website. This project focused on a physical server, which allowed for a deeper understanding of hardware and network management. Compared to regular web hosting, this project provided greater control over configuration and security.
 
-#### link on static version of site is here
-https://dandythewood.github.io/danielmolda/
+## Link on static version of this site is here
+Link: https://dandythewood.github.io/danielmolda/
