@@ -1,6 +1,5 @@
 # CV-Website
-This site my maturita exam project
-
+This site was part of my maturita exam project in SOŠ Handlová
 ##
-
-The project focuses on installing and configuring a phisical Linux server to host a website. For serevr i used ZimaBoard, compact computer that im my case allows for efficient deployment of web applications. The project includes deploying Apache2, remote access via SSH, securing the server with the UFW firewall, and using PHPMailer to send encrypted emails.
+<p>The project focused on the installation and configuration of a Linux server for hosting a website. A ZimaBoard, a compact computer, was used to enable efficient deployment of web applications. The project included the deployment of Apache2, remote access via SSH, securing the server using the UFW firewall, and the use of PHPMailer for sending encrypted emails.</p>
+<p>The goal of the project was to set up a web server on Linux and create a simple website. This project focused on a physical server, which allowed for a deeper understanding of hardware and network management. Compared to regular web hosting, this project provided greater control over configuration and security.</p>
